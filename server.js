@@ -6,6 +6,7 @@ const morgan = require("morgan")
 
 // Initiate express
 const app = express()
+app.use(express.json({limit: "30mb",extended:true}));
 
 // Router
 const memoryRouter = require('./routes/Memory')

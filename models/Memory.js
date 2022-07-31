@@ -12,10 +12,6 @@ const memorySchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    grouping:{
-        type: Array,
-        required: false,
-    },
 })
 
 
